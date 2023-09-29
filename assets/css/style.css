@@ -3,12 +3,7 @@ footer.miFooter{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,13,121,1) 56%, rgba(0,108,255,1) 100%);    
 }
-.custom-align {
-    display: flex;
-    flex-direction: row; /* Cambiamos la dirección a horizontal */
-    align-items: center;
-    justify-content: center; /* Alineación horizontal centrada */
-}
+
 
 .alto{
     height: 700px;    
@@ -16,4 +11,19 @@ footer.miFooter{
 
 .custom-btn {
     width: 100%;
+}
+
+.colorFondoCard {background-color: #212f3c;}
+
+.imagenCardInferior{
+    width: 50%;
+    height: 50%;
+}
+
+.correrTextoIzquierda{
+    padding-right: 200px;
+}
+
+img{
+    height: 90px;
 }
