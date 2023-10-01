@@ -17,13 +17,18 @@ footer.miFooter{
 
 .imagenCardInferior{
     width: 50%;
-    height: 50%;
+    
 }
 
 .correrTextoIzquierda{
     padding-right: 200px;
 }
 
-img{
-    height: 90px;
+nav img{
+    height: 5rem;
 }
+
+li{
+    margin-left: 3rem;
+}
+  
