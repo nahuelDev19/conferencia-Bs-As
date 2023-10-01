@@ -25,10 +25,14 @@ footer.miFooter{
 }
 
 nav img{
-    height: 5rem;
+    height: 4rem;
+    padding-left: 7rem;
 }
 
 li{
     margin-left: 3rem;
 }
   
+.opacar{
+    filter: brightness(50%); 
+  }
