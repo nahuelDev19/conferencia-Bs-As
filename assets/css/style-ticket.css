@@ -4,6 +4,17 @@
     
 }
 
+
+
+/*main*/
+
+ 
+main{
+    margin-top: 5%;
+    
+}
+
+
 /*sections*/
 .sec-con{
     display: flex;
@@ -14,16 +25,43 @@
 
 .sec1 {
     border: 2px solid rgb(7, 55, 249);
-    padding: 10px;
-    margin: 10px 0;
+    padding: 1rem;
+    margin: 1rem 0;
 }
 .sec2 {
     border: 2px solid rgb(23, 201, 241);
-    padding: 10px;
-    margin: 10px 0;
+    padding: 1rem;
+    margin: 1rem 0;
 }
 .sec3 {
     border: 2px solid rgb(19, 209, 22);
-    padding: 10px;
-    margin: 10px 0;
+    padding: 1rem;
+    margin: 1rem 0;
 }
+/* formulario*/
+.form-control {
+    border: 2px solid #544f52; /* Aumenta el grosor del borde a 2px (puedes ajustarlo según tus preferencias) */
+  }
+.selector {
+    border: 2px solid #08d03a; /* Aumenta el grosor del borde a 2px (puedes ajustarlo según tus preferencias) */
+  }
+
+  .margin-bottom {
+    margin-bottom: 1rem; /* Ajusta el valor según la separación que desees */
+  }
+
+  .input-alto {
+    height: 3rem; 
+  }
+  /*
+  footer
+  */
+  /* Estilos para el footer */
+.miFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+

@@ -64,7 +64,7 @@
     </header>
 
     <!-- main-->
-    <main class="container">
+    <main class="container  ">
       <div class="sec-con text-center">
         <section class="sec1">
           <h3>Estudiante</h3>
@@ -74,15 +74,15 @@
         </section>
 
         <section class="sec2">
-          <h3>Estudiante</h3>
+          <h3>Trainee</h3>
           <p>tiene un descuento</p>
-          <h4>80%</h4>
+          <h4>50%</h4>
           <p>*presentar documentacion</p>
         </section>
         <section class="sec3">
-          <h3>Estudiante</h3>
+          <h3>Junior</h3>
           <p>tiene un descuento</p>
-          <h4>80%</h4>
+          <h4>15%</h4>
           <p>*presentar documentacion</p>
         </section>
       </div>
@@ -93,29 +93,17 @@
         </div>
 
         <div>
-          
+          <form class="row g-1" >       
 
-          <form class="row g-1">
-            <div class="row">
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="First name"
-                  aria-label="First name"
-                />
-              </div>
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Last name"
-                  aria-label="Last name"
-                />
-              </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Nombre" />
             </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label"></label>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="apellido">                
+              </select>
+            </div>
+
+            <div class="col-12 margin-bottom">
               <input
                 type="text"
                 class="form-control"
@@ -123,27 +111,30 @@
                 placeholder="correro"
               />
             </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">Cantidad</label>
-              <input type="text" class="form-control" id="inputCity" />
+            
+            <div class="col-md-6 ">
+              <label for="inputCan" class="form-label">Cantidad</label>
+              <input type="number" class="form-control" id="inputCan" />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 ">
               <label for="inputState" class="form-label">Categoria</label>
-              <select id="inputState" class="form-select">
+              <select id="inputCate" class="form-select selector">
                 <option selected>Estudiante</option>
                 <option selected>Trainee</option>
                 <option selected>Junior</option>
               </select>
             </div>
 
-            <div>
-              <input type="p">
-            </div>
+            <div class="col-12">
+              <input class="form-control input-alto" type="text" id="pantalla" placeholder="Total a pagar $:" readonly>
+            </div >
+
+            
             <div class="col-6">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="reset" class="btn btn-primary custom-btn">Borrar todo</button>
             </div>
-            <div class="col-6">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+            <div class="col-6 ">
+              <button type="submit"  class="btn btn-primary custom-btn">Total</button>
             </div>
           </form>
         </div>
@@ -183,5 +174,6 @@
       </div>
     </footer>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/tickets.js"></script>
   </body>
 </html>
