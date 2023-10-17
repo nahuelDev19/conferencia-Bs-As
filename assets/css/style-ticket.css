@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*sections*/
+.sec-con{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.sec1 {
+    border: 2px solid rgb(7, 55, 249);
+    padding: 10px;
+    margin: 10px 0;
+}
+.sec2 {
+    border: 2px solid rgb(23, 201, 241);
+    padding: 10px;
+    margin: 10px 0;
+}
+.sec3 {
+    border: 2px solid rgb(19, 209, 22);
+    padding: 10px;
+    margin: 10px 0;
+}
